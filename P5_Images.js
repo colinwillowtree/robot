@@ -15,8 +15,8 @@ function setup() {
 
 
 function draw() {
- background(31);
- //clear();
+// background(31);
+ clear();
   image(robot[frameCount%48], width/2, height/2, height, height);
   
 }
